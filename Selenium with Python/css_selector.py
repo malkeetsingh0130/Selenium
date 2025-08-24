@@ -23,3 +23,10 @@ elements = d.find_elements(By.CSS_SELECTOR,"input.input_error.form_input") # we 
 elements[1].send_keys("abc")
 
 #tag and attribute
+
+#d.find_element(By.CSS_SELECTOR,"input[data-test=login-button]").click()
+
+#tag, class and attribute
+
+d.find_element(By.CSS_SELECTOR,"input.input_error.form_input[placeholder=Username]").send_keys("test123")
+
