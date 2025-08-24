@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module MyFirstProject {
+	requires org.seleniumhq.selenium.api;
+}
