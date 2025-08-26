@@ -17,6 +17,6 @@
             b. tag and class- syntax: tag_name.value_class 
                 Sometimes it doesnt take the value of class if there is whitespace in it. we can remove the items after the space to make it work
                     ex. "input_error form_input" here we can remove from_input to make it work
-            c. tag and attribute
-            d. tag,class and attribute
+            c. tag and attribute-syntax: tagname[attribute=value]
+            d. tag,class and attribute-syntax: tagname.valueofclass[attribute=value]
 
